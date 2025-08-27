@@ -52,11 +52,6 @@ Este projeto tem como finalidade praticar os principais comandos SQL e servir de
 
 📌 Como usar
 
-Clone este repositório
-
-git clone https://github.com/seu-usuario/sql-basics.git
-
-
 Abra em seu SGBD (MySQL, PostgreSQL, SQLite etc.)
 
 Execute os scripts SQL na ordem desejada
