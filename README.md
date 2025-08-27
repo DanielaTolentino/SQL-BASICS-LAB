@@ -28,3 +28,36 @@ CREATE TABLE Clientes (
     cidade VARCHAR(50)
 );
 
+Inserindo registros
+INSERT INTO Clientes (id, nome, email, cidade)
+VALUES (1, 'Ana Silva', 'ana@email.com', 'São Paulo');
+
+Consultando dados
+SELECT nome, cidade
+FROM Clientes
+WHERE cidade = 'São Paulo';
+
+Atualizando registros
+UPDATE Clientes
+SET cidade = 'Rio de Janeiro'
+WHERE id = 1;
+
+Deletando registros
+DELETE FROM Clientes
+WHERE id = 1;
+
+🎯 Objetivo
+
+Este projeto tem como finalidade praticar os principais comandos SQL e servir de material de consulta rápida para iniciantes.
+
+📌 Como usar
+
+Clone este repositório
+
+git clone https://github.com/seu-usuario/sql-basics.git
+
+
+Abra em seu SGBD (MySQL, PostgreSQL, SQLite etc.)
+
+Execute os scripts SQL na ordem desejada
+
